@@ -1,0 +1,70 @@
+# WordPress core files
+wp-admin/
+wp-includes/
+
+# Dynamic content
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/backup-*
+
+# WordPress configuration files
+wp-config.php
+wp-config-*.php
+
+# WordPress database backup files
+*.sql
+*.sql.gz
+*.zip
+
+# WordPress log files
+debug.log
+error_log
+
+# WordPress security
+.htaccess
+.htpasswd
+web.config
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*.bak
+*.log
+
+# Node modules and build directories
+node_modules/
+build/
+dist/
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# SASS/CSS cache
+*.css.map
+*.scssc
+
+# Mac files
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Other
+*.orig
+*.sass-cache
+*.tmp
+*.temp
+*.log
+
+# Sensitive files
+.env
+.env.*
