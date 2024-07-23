@@ -1,0 +1,19 @@
+{
+    "name": "abdulrehman/codecrafterplugin",
+    "description": "This is a practice project",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Codecrafterplugin\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdul Rehman",
+            "email": "abdurjbrehman101@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
